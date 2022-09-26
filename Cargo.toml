@@ -10,7 +10,7 @@ name = "main"
 harness = false
 
 [dependencies]
-amqp = "0.1.3"
+amqp = { version="0.1.3", features=["tls"] }
 env_logger = "0.8.3"
 fallible-iterator = "0.2.0"
 log = "0.4.14"
